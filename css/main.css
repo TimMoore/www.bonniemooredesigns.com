@@ -124,7 +124,7 @@ nav a:link, nav a:visited {
   color: #FEC84E;
 }
 
-#nav-gallery a:hover, #nav-gallery a:active {
+#nav-gallery a:hover, #nav-gallery a:active, #nav-gallery a.current {
   color: #333;
   background-color: #FEC84E;
 }
@@ -133,7 +133,7 @@ nav a:link, nav a:visited {
   color: #FF8457;
 }
 
-#nav-about a:hover, #nav-about a:active {
+#nav-about a:hover, #nav-about a:active, #nav-about a.current {
   color: #333;
   background-color: #FF8457;
 }
@@ -142,7 +142,7 @@ nav a:link, nav a:visited {
   color: #FE5A51;
 }
 
-#nav-links a:hover, #nav-links a:active {
+#nav-links a:hover, #nav-links a:active, #nav-links a.current  {
   color: #333;
   background-color: #FE5A51;
 }

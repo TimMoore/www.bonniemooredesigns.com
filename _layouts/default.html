@@ -18,11 +18,24 @@
             <h1 class="title"><a href="/"><span class="bonnie-moore">Bonnie Moore</span> <span class="designs">Designs</span></a></h1>
           </header>
 
+
           <nav>
             <ul>
-              <li id="nav-gallery"><a href="/gallery/">Gallery</a></li>
-              <li id="nav-about"><a href="/about/">About Me</a></li>
-              <li id="nav-links"><a href="/links/">Links</a></li>
+              <li id="nav-gallery"><a
+                {% if page.url contains "/gallery/" %}
+                  class="current"
+                {% endif %}
+                href="/gallery/">Gallery</a></li>
+              <li id="nav-about"><a
+                {% if page.url contains "/about/" %}
+                  class="current"
+                {% endif %}
+                href="/about/">About Me</a></li>
+              <li id="nav-links"><a
+                {% if page.url contains "/links/" %}
+                  class="current"
+                {% endif %}
+                href="/links/">Links</a></li>
             </ul>
           </nav>
 
