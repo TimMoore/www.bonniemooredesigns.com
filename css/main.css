@@ -58,7 +58,8 @@ main {
 
 main {
   background-color: #F3F3F3;
-  background-image: url(../images/fabric_1.png);
+  background-image: url(../images/fabric_1_@2X.png);
+  background-size: 400px;
 }
 
 main a:link, main a:visited {
