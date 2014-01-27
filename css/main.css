@@ -81,6 +81,51 @@ header a {
   position: relative;
 }
 
+nav {
+  background-color: #333;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a, nav a:visited {
+  color: #F3F3F3;
+  border: solid #333;
+  border-width: 5px 0;
+  display: block;
+  font-size: 18px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+nav a#nav-gallery:link, nav a#nav-gallery:visited {
+  color: #FEC84E;
+}
+
+nav a#nav-gallery:hover, nav a#nav-gallery:active {
+  color: #333;
+  background-color: #FEC84E;
+}
+
+nav a#nav-about:link, nav a#nav-about:visited {
+  color: #FF8457;
+}
+
+nav a#nav-about:hover, nav a#nav-about:active {
+  color: #333;
+  background-color: #FF8457;
+}
+
+nav a#nav-links:link, nav a#nav-links:visited {
+  color: #FE5A51;
+}
+
+nav a#nav-links:hover, nav a#nav-links:active {
+  color: #333;
+  background-color: #FE5A51;
+}
+
 footer {
   background-color: #333;
   font-size: 80%;
