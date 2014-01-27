@@ -1,4 +1,41 @@
 ---
 layout: default
 title: Gallery &mdash; Bonnie Moore Designs
+gallery:
+  woven-textiles:
+    - /images/gallery/woven-textiles/5466297747_52c294796e_o.jpg
+    - /images/gallery/woven-textiles/5466892332_9f1070bd7e_o.jpg
+    - /images/gallery/woven-textiles/DSCN3673.JPG
+    - /images/gallery/woven-textiles/DSCN4487.JPG
+    - /images/gallery/woven-textiles/DSCN4559.JPG
+    - /images/gallery/woven-textiles/DSCN4830.JPG
+  bead-woven-fiber-neckpieces:
+    - /images/gallery/bead-woven-fiber-neckpieces/DSCN4804.JPG
+    - /images/gallery/bead-woven-fiber-neckpieces/DSCN4810.JPG
+    - /images/gallery/bead-woven-fiber-neckpieces/DSCN4817.JPG
+    - /images/gallery/bead-woven-fiber-neckpieces/DSCN4818.JPG
+  other-intertwinings-and-adornments:
+    - /images/gallery/other-intertwinings-and-adornments/5466895114_b6170802e7_o.jpg
+    - /images/gallery/other-intertwinings-and-adornments/5466895676_342a53102c_o.jpg
+    - /images/gallery/other-intertwinings-and-adornments/DSCN4652.JPG
+    - /images/gallery/other-intertwinings-and-adornments/DSCN4822.JPG
 ---
+
+<h2>Woven textiles</h2>
+
+{% for image in page.gallery.woven-textiles %}
+<a href="{{ image }}"><img src="{{ image }}"></a>
+{% endfor %}
+
+<h2>Bead-woven fiber neckpieces</h2>
+
+{% for image in page.gallery.bead-woven-fiber-neckpieces %}
+<a href="{{ image }}"><img src="{{ image }}"></a>
+{% endfor %}
+
+
+<h2>Other intertwinings and adornments</h2>
+
+{% for image in page.gallery.other-intertwinings-and-adornments %}
+<a href="{{ image }}"><img src="{{ image }}"></a>
+{% endfor %}
