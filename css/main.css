@@ -98,8 +98,15 @@ nav {
   background-color: #333;
 }
 
+nav ul {
+  display: table;
+}
+
 nav li {
+  display: table-cell;
   list-style: none;
+  text-align: center;
+  width: 33%;
 }
 
 nav a:link, nav a:visited {
@@ -108,33 +115,34 @@ nav a:link, nav a:visited {
   border-width: 5px 0;
   display: block;
   font-size: 18px;
-  padding: 5px;
+  padding: 5px 10px;
   text-decoration: none;
+  white-space: nowrap;
 }
 
-nav a#nav-gallery:link, nav a#nav-gallery:visited {
+#nav-gallery a:link, #nav-gallery a:visited {
   color: #FEC84E;
 }
 
-nav a#nav-gallery:hover, nav a#nav-gallery:active {
+#nav-gallery a:hover, #nav-gallery a:active {
   color: #333;
   background-color: #FEC84E;
 }
 
-nav a#nav-about:link, nav a#nav-about:visited {
+#nav-about a:link, #nav-about a:visited {
   color: #FF8457;
 }
 
-nav a#nav-about:hover, nav a#nav-about:active {
+#nav-about a:hover, #nav-about a:active {
   color: #333;
   background-color: #FF8457;
 }
 
-nav a#nav-links:link, nav a#nav-links:visited {
+#nav-links a:link, #nav-links a:visited {
   color: #FE5A51;
 }
 
-nav a#nav-links:hover, nav a#nav-links:active {
+#nav-links a:hover, #nav-links a:active {
   color: #333;
   background-color: #FE5A51;
 }
