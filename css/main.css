@@ -37,6 +37,14 @@ a:visited { color: #a0a; }
 /*
 /* Site
 /*
+/* Color index:
+/*   - Dark gray    #333
+/*   - Mid gray     #666
+/*   - Light gray   #F3F3F3
+/*   - Bluelet      #8085C1
+/*   - Muted blue   #48526D
+/*   - Muddy orange #BE5816
+/*
 /*****************************************************************************/
 
 .site {
@@ -51,6 +59,10 @@ main {
 main {
   background-color: #F3F3F3;
   background-image: url(../images/fabric_1.png);
+}
+
+main a:link, main a:visited {
+  color: #8085C1;
 }
 
 header {
@@ -90,7 +102,7 @@ nav li {
   list-style: none;
 }
 
-nav a, nav a:visited {
+nav a:link, nav a:visited {
   color: #F3F3F3;
   border: solid #333;
   border-width: 5px 0;
@@ -135,7 +147,7 @@ footer {
   padding: 20px 10px;
 }
 
-footer a, footer a:visited {
+footer a:link, footer a:visited {
   color: #666;
 }
 
