@@ -53,13 +53,13 @@ main {
   background-image: url(../images/fabric_1.png);
 }
 
-.header {
+header {
   background-color: #333;
   padding: 20px 10px;
   text-align: center;
 }
 
-.header a {
+header a {
   display: block;
   text-decoration: none;
 }
@@ -81,7 +81,7 @@ main {
   position: relative;
 }
 
-.footer {
+footer {
   background-color: #333;
   font-size: 80%;
   color: #666;
@@ -89,6 +89,10 @@ main {
   padding: 20px 10px;
 }
 
-.footer a {
+footer a, footer a:visited {
+  color: #666;
+}
+
+footer a:hover, footer a:active {
   color: #8085C1;
 }
