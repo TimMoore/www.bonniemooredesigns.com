@@ -54,27 +54,27 @@ img { width: 100%;}
   margin: 0 4px;
 }
 
-main {
+.main {
   padding: 20px;
 }
 
-main {
+.main {
   background-color: #F3F3F3;
   background-image: url(../images/fabric_1_@2X.png);
   background-size: 400px;
 }
 
-main a:link, main a:visited {
+.main a:link, .main a:visited {
   color: #8085C1;
 }
 
-header {
+.header {
   background-color: #333;
   padding: 20px 10px;
   text-align: center;
 }
 
-header a {
+.header a {
   display: block;
   text-decoration: none;
 }
@@ -97,22 +97,19 @@ header a {
   position: relative;
 }
 
-nav {
+ul.nav {
   background-color: #333;
-}
-
-nav ul {
   display: table;
 }
 
-nav li {
+ul.nav li {
   display: table-cell;
   list-style: none;
   text-align: center;
   width: 33%;
 }
 
-nav a:link, nav a:visited {
+ul.nav a:link, ul.nav a:visited {
   color: #F3F3F3;
   border: solid #333;
   border-width: 5px 0;
@@ -150,7 +147,7 @@ nav a:link, nav a:visited {
   background-color: #FE5A51;
 }
 
-footer {
+.footer {
   background-color: #333;
   font-size: 80%;
   color: #666;
@@ -158,10 +155,10 @@ footer {
   padding: 20px 10px;
 }
 
-footer a:link, footer a:visited {
+.footer a:link, .footer a:visited {
   color: #666;
 }
 
-footer a:hover, footer a:active {
+.footer a:hover, .footer a:active {
   color: #8085C1;
 }
