@@ -105,6 +105,14 @@ ul.nav {
   display: table;
 }
 
+/*
+ * IE6 doesn't support display: table-cell.
+ * This makes it render in a somewhat nice-looking way.
+ */
+ul.nav li {
+  display: inline;
+}
+
 ul.nav li {
   display: table-cell;
   list-style: none;
@@ -123,7 +131,7 @@ ul.nav a:link, ul.nav a:visited {
   white-space: nowrap;
 }
 
-#nav-gallery a:link, #nav-gallery a:visited {
+#nav-gallery a {
   color: #FEC84E;
 }
 
@@ -132,7 +140,7 @@ ul.nav a:link, ul.nav a:visited {
   background-color: #FEC84E;
 }
 
-#nav-about a:link, #nav-about a:visited {
+#nav-about a {
   color: #FF8457;
 }
 
@@ -141,7 +149,7 @@ ul.nav a:link, ul.nav a:visited {
   background-color: #FF8457;
 }
 
-#nav-links a:link, #nav-links a:visited {
+#nav-links a {
   color: #FE5A51;
 }
 
